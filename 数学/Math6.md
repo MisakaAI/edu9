@@ -16,12 +16,75 @@
 - **百分数** `%` (Percentage)
 表示为100的分数的数或比
 
-### 范例
+### 例题1
 
-\[ \frac{1}{2} \times \frac{2}{3} = \frac{2}{6} = \frac{1}{3} = 0.\overline{3}\]
-\[ 1 \div \frac{1}{3} = 1 \times 3 = 3\]
-\[ \frac{1}{2} \div \frac{1}{3} = \frac{1}{2} \times 3 = \frac{3}{2} = 1.5\]
-\[ \frac{1}{2} \div \frac{2}{3} = \frac{1}{2} \times \frac{3}{2} = \frac{3}{4} = 0.75\]
+\[
+    \frac{1}{2} \times \frac{2}{3} = \frac{2}{6} = \frac{1}{3} = 0.\overline{3} \\
+    1 \div \frac{1}{3} = 1 \times 3 = 3 \\
+    \frac{1}{2} \div \frac{1}{3} = \frac{1}{2} \times 3 = \frac{3}{2} = 1.5 \\
+    \frac{1}{2} \div \frac{2}{3} = \frac{1}{2} \times \frac{3}{2} = \frac{3}{4} = 0.75
+\]
+
+### 例题2
+
+\[
+    2009\times\frac{2007}{2008} \\
+    =(2008+1)\times\frac{2007}{2008} \\
+    =(2008\times\frac{2007}{2008})+(1\times\frac{2007}{2008}) \\
+    =2007+\frac{2007}{2008} \\
+    =2007\frac{2007}{2008}
+\]
+
+### 例题3
+
+\[
+    2007\div2007\frac{2007}{2008} \\
+    =2007\div(\frac{2007}{1}+\frac{2007}{2008}) \\
+    =2007\div[1\times(\frac{2007}{1}+\frac{2007}{2008})] \\
+    =2007\div[2007\times(1+\frac{1}{2008})] \\
+    =2007\div[2007\times(\frac{2008}{2008}+\frac{1}{2008})] \\
+    =2007\div[2007\times(\frac{2009}{2008})] \\
+    =2007\div(2007\times\frac{2009}{2008}) \\
+    =2007\times\frac{1}{2007}\times\frac{2008}{2009} \\
+    =\frac{2008}{2009}
+\]
+
+### 例题4
+
+一项工程，甲队独做15天完成，乙队独做12天完成，若两队合作，甲队每天提高效率的25%，乙队每天提高效率的20%，现在两队合作，途中甲队休息了若干天，这样前后共用9天完成任务。甲队休息了多少天？
+
+\[
+    解：设甲队工作了x天 \\
+    \frac{1}{15}\cdot\frac{5}{4}=\frac{1}{12} \\
+    \frac{1}{12}\cdot\frac{6}{5}=\frac{1}{10}  \\
+    (\frac{1}{12}+\frac{1}{10})\cdot x+\frac{1}{12}\cdot(9-x)=1 \\
+    \frac{1}{12}x+\frac{1}{10}x+\frac{9}{12}-\frac{1}{12}x=1 \\
+    \frac{1}{10}x+\frac{9}{12}=1 \\
+    \frac{1}{10}x=1-\frac{9}{12} \\
+    \frac{1}{10}x=\frac{3}{12} \\
+    \frac{1}{10}x=\frac{1}{4} \\
+    x=\frac{1}{4}\div\frac{1}{10} \\
+    x=\frac{1}{4}\times\frac{10}{1} \\
+    x=\frac{10}{4} \\
+    x=\frac{5}{2} \\
+    9-\frac{5}{2} = 9-2.5 = 6.5
+\]
+
+\[
+    解：设甲队休息了x天，总工程量为y \\
+    \frac{y}{15}\cdot\frac{5}{4}\cdot(9-x)+\frac{y}{12}\cdot\frac{6}{5}\cdot(9-x)+\frac{y}{12}\cdot x=y \\
+    \frac{5y}{60}(9-x)+\frac{6y}{60}(9-x)+\frac{5y}{12\times5}\cdot x=y \\
+    \frac{5y\cdot9-5xy}{60}+\frac{6y\cdot9-6xy}{60}+\frac{5xy}{60}=y \\
+    \frac{45y-5xy+54y-6xy+5xy}{60}=y \\
+    \frac{45y+54y-6xy+5xy-5xy}{60}=y \\
+    \frac{99y-6xy}{60}=y \\
+    60=\frac{99y-6xy}{y} \\
+    60=99-6x \\
+    6x=99-60 \\
+    6x=39 \\
+    x=39\div6 \\
+    x=6.5 \\
+\]
 
 ## 图形与几何
 
